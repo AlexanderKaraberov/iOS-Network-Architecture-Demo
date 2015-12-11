@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="UserGroupTableViewCell" rowHeight="61" id="TXt-Id-PBb" customClass="GroupTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="61"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TXt-Id-PBb" id="Rkh-i7-8RA">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" text="Status" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S2n-og-afl">
+                        <rect key="frame" x="8" y="32" width="304" height="18"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Name" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I5X-JZ-H5E">
+                        <rect key="frame" x="8" y="8" width="304" height="22"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.87058823529999996" green="0.88235294119999996" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="S2n-og-afl" secondAttribute="trailing" constant="8" id="HeV-0U-rfn"/>
+                    <constraint firstAttribute="trailing" secondItem="I5X-JZ-H5E" secondAttribute="trailing" constant="8" id="PqX-mK-FTi"/>
+                    <constraint firstItem="I5X-JZ-H5E" firstAttribute="top" secondItem="Rkh-i7-8RA" secondAttribute="top" constant="8" id="UCJ-ZZ-9Vt"/>
+                    <constraint firstItem="I5X-JZ-H5E" firstAttribute="leading" secondItem="Rkh-i7-8RA" secondAttribute="leading" constant="8" id="ZAn-KB-jet"/>
+                    <constraint firstAttribute="bottom" secondItem="S2n-og-afl" secondAttribute="bottom" constant="10" id="acy-dU-etZ"/>
+                    <constraint firstItem="S2n-og-afl" firstAttribute="leading" secondItem="Rkh-i7-8RA" secondAttribute="leading" constant="8" id="x7u-i4-Qhe"/>
+                    <constraint firstItem="S2n-og-afl" firstAttribute="top" secondItem="I5X-JZ-H5E" secondAttribute="bottom" constant="2" id="yRe-a0-iTs"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="groupNameLabel" destination="I5X-JZ-H5E" id="nrp-6a-B7z"/>
+                <outlet property="groupStatusLabel" destination="S2n-og-afl" id="2kb-Ih-Tm0"/>
+            </connections>
+            <point key="canvasLocation" x="567" y="552.5"/>
+        </tableViewCell>
+    </objects>
+</document>

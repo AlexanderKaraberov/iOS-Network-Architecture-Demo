@@ -7,14 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		117E77831C16F55B007E8D95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 117E77821C16F55B007E8D95 /* main.m */; };
-		117E77861C16F55B007E8D95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 117E77851C16F55B007E8D95 /* AppDelegate.m */; };
-		117E77891C16F55B007E8D95 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 117E77881C16F55B007E8D95 /* FirstViewController.m */; };
-		117E778C1C16F55B007E8D95 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 117E778B1C16F55B007E8D95 /* SecondViewController.m */; };
-		117E778F1C16F55B007E8D95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 117E778D1C16F55B007E8D95 /* Main.storyboard */; };
-		117E77911C16F55B007E8D95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 117E77901C16F55B007E8D95 /* Assets.xcassets */; };
-		117E77941C16F55B007E8D95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 117E77921C16F55B007E8D95 /* LaunchScreen.storyboard */; };
+		1101A53C1C1B18F000BD69B4 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 1101A53B1C1B18F000BD69B4 /* Podfile */; };
+		116327811C1B3C0E00F8FEAD /* CLQAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1163274B1C1B3C0E00F8FEAD /* CLQAppDelegate.m */; };
+		116327821C1B3C0E00F8FEAD /* CLQLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1163274E1C1B3C0E00F8FEAD /* CLQLoginViewController.m */; };
+		116327831C1B3C0E00F8FEAD /* CLQUserFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 116327501C1B3C0E00F8FEAD /* CLQUserFriendsViewController.m */; };
+		116327841C1B3C0E00F8FEAD /* CLQUserGroupsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 116327521C1B3C0E00F8FEAD /* CLQUserGroupsViewController.m */; };
+		116327851C1B3C0E00F8FEAD /* CLQEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 116327551C1B3C0E00F8FEAD /* CLQEntity.m */; };
+		116327861C1B3C0E00F8FEAD /* CLQGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 116327571C1B3C0E00F8FEAD /* CLQGroup.m */; };
+		116327871C1B3C0E00F8FEAD /* CLQGroupInvitation.m in Sources */ = {isa = PBXBuildFile; fileRef = 116327591C1B3C0E00F8FEAD /* CLQGroupInvitation.m */; };
+		116327881C1B3C0E00F8FEAD /* CLQSearchCriteria.m in Sources */ = {isa = PBXBuildFile; fileRef = 1163275B1C1B3C0E00F8FEAD /* CLQSearchCriteria.m */; };
+		116327891C1B3C0E00F8FEAD /* CLQUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1163275D1C1B3C0E00F8FEAD /* CLQUser.m */; };
+		1163278A1C1B3C0E00F8FEAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116327601C1B3C0E00F8FEAD /* Assets.xcassets */; };
+		1163278B1C1B3C0E00F8FEAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116327621C1B3C0E00F8FEAD /* LaunchScreen.storyboard */; };
+		1163278C1C1B3C0E00F8FEAD /* CLQLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 116327651C1B3C0E00F8FEAD /* CLQLoginViewController.xib */; };
+		1163278D1C1B3C0E00F8FEAD /* FriendTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 116327661C1B3C0E00F8FEAD /* FriendTableViewCell.xib */; };
+		1163278E1C1B3C0E00F8FEAD /* GroupTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 116327671C1B3C0E00F8FEAD /* GroupTableViewCell.xib */; };
+		1163278F1C1B3C0E00F8FEAD /* UserProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 116327681C1B3C0E00F8FEAD /* UserProfileView.xib */; };
+		116327901C1B3C0E00F8FEAD /* CLQAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1163276C1C1B3C0E00F8FEAD /* CLQAPIClient.m */; };
+		116327911C1B3C0E00F8FEAD /* CLQFriendsRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 1163276F1C1B3C0E00F8FEAD /* CLQFriendsRepository.m */; };
+		116327921C1B3C0E00F8FEAD /* CLQAuthorizationServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 116327731C1B3C0E00F8FEAD /* CLQAuthorizationServices.m */; };
+		116327931C1B3C0E00F8FEAD /* CLQFriendServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 116327751C1B3C0E00F8FEAD /* CLQFriendServices.m */; };
+		116327941C1B3C0E00F8FEAD /* CLQGroupServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 116327771C1B3C0E00F8FEAD /* CLQGroupServices.m */; };
+		116327971C1B3C0E00F8FEAD /* CLQSquareTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1163277D1C1B3C0E00F8FEAD /* CLQSquareTextField.m */; };
+		116327981C1B3C0E00F8FEAD /* GroupTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 116327801C1B3C0E00F8FEAD /* GroupTableViewCell.m */; };
+		1163279C1C1B3CA300F8FEAD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1163279A1C1B3CA300F8FEAD /* Info.plist */; };
+		1163279D1C1B3CA300F8FEAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1163279B1C1B3CA300F8FEAD /* main.m */; };
+		116327A01C1B3F1E00F8FEAD /* CLQApplicationBootstrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 1163279F1C1B3F1E00F8FEAD /* CLQApplicationBootstrap.m */; };
+		116327A31C1B435500F8FEAD /* CLQJoinRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 116327A21C1B435500F8FEAD /* CLQJoinRequest.m */; };
+		116327A61C1B43B000F8FEAD /* CLQGroupsRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 116327A51C1B43B000F8FEAD /* CLQGroupsRepository.m */; };
 		117E779F1C16F55C007E8D95 /* NetworkArchitectureDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 117E779E1C16F55C007E8D95 /* NetworkArchitectureDemoTests.m */; };
+		7A59C904E2F43975B7E8931F /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E0C7EBA21AEBF3DEEE7B0F /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,21 +50,61 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1081914D2707855563934413 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		1101A53B1C1B18F000BD69B4 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1163274A1C1B3C0E00F8FEAD /* CLQAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLQAppDelegate.h; sourceTree = "<group>"; };
+		1163274B1C1B3C0E00F8FEAD /* CLQAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLQAppDelegate.m; sourceTree = "<group>"; };
+		1163274D1C1B3C0E00F8FEAD /* CLQLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLQLoginViewController.h; sourceTree = "<group>"; };
+		1163274E1C1B3C0E00F8FEAD /* CLQLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLQLoginViewController.m; sourceTree = "<group>"; };
+		1163274F1C1B3C0E00F8FEAD /* CLQUserFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLQUserFriendsViewController.h; sourceTree = "<group>"; };
+		116327501C1B3C0E00F8FEAD /* CLQUserFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLQUserFriendsViewController.m; sourceTree = "<group>"; };
+		116327511C1B3C0E00F8FEAD /* CLQUserGroupsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLQUserGroupsViewController.h; sourceTree = "<group>"; };
+		116327521C1B3C0E00F8FEAD /* CLQUserGroupsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLQUserGroupsViewController.m; sourceTree = "<group>"; };
+		116327541C1B3C0E00F8FEAD /* CLQEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLQEntity.h; sourceTree = "<group>"; };
+		116327551C1B3C0E00F8FEAD /* CLQEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLQEntity.m; sourceTree = "<group>"; };
+		116327561C1B3C0E00F8FEAD /* CLQGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLQGroup.h; sourceTree = "<group>"; };
+		116327571C1B3C0E00F8FEAD /* CLQGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLQGroup.m; sourceTree = "<group>"; };
+		116327581C1B3C0E00F8FEAD /* CLQGroupInvitation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLQGroupInvitation.h; sourceTree = "<group>"; };
+		116327591C1B3C0E00F8FEAD /* CLQGroupInvitation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLQGroupInvitation.m; sourceTree = "<group>"; };
+		1163275A1C1B3C0E00F8FEAD /* CLQSearchCriteria.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLQSearchCriteria.h; sourceTree = "<group>"; };
+		1163275B1C1B3C0E00F8FEAD /* CLQSearchCriteria.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLQSearchCriteria.m; sourceTree = "<group>"; };
+		1163275C1C1B3C0E00F8FEAD /* CLQUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLQUser.h; sourceTree = "<group>"; };
+		1163275D1C1B3C0E00F8FEAD /* CLQUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLQUser.m; sourceTree = "<group>"; };
+		116327601C1B3C0E00F8FEAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		116327631C1B3C0E00F8FEAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		116327651C1B3C0E00F8FEAD /* CLQLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLQLoginViewController.xib; sourceTree = "<group>"; };
+		116327661C1B3C0E00F8FEAD /* FriendTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendTableViewCell.xib; sourceTree = "<group>"; };
+		116327671C1B3C0E00F8FEAD /* GroupTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupTableViewCell.xib; sourceTree = "<group>"; };
+		116327681C1B3C0E00F8FEAD /* UserProfileView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserProfileView.xib; sourceTree = "<group>"; };
+		1163276B1C1B3C0E00F8FEAD /* CLQAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLQAPIClient.h; sourceTree = "<group>"; };
+		1163276C1C1B3C0E00F8FEAD /* CLQAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLQAPIClient.m; sourceTree = "<group>"; };
+		1163276E1C1B3C0E00F8FEAD /* CLQFriendsRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLQFriendsRepository.h; sourceTree = "<group>"; };
+		1163276F1C1B3C0E00F8FEAD /* CLQFriendsRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLQFriendsRepository.m; sourceTree = "<group>"; };
+		116327701C1B3C0E00F8FEAD /* CLQRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLQRepository.h; sourceTree = "<group>"; };
+		116327721C1B3C0E00F8FEAD /* CLQAuthorizationServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLQAuthorizationServices.h; sourceTree = "<group>"; };
+		116327731C1B3C0E00F8FEAD /* CLQAuthorizationServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLQAuthorizationServices.m; sourceTree = "<group>"; };
+		116327741C1B3C0E00F8FEAD /* CLQFriendServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLQFriendServices.h; sourceTree = "<group>"; };
+		116327751C1B3C0E00F8FEAD /* CLQFriendServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLQFriendServices.m; sourceTree = "<group>"; };
+		116327761C1B3C0E00F8FEAD /* CLQGroupServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLQGroupServices.h; sourceTree = "<group>"; };
+		116327771C1B3C0E00F8FEAD /* CLQGroupServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLQGroupServices.m; sourceTree = "<group>"; };
+		1163277C1C1B3C0E00F8FEAD /* CLQSquareTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLQSquareTextField.h; sourceTree = "<group>"; };
+		1163277D1C1B3C0E00F8FEAD /* CLQSquareTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLQSquareTextField.m; sourceTree = "<group>"; };
+		1163277F1C1B3C0E00F8FEAD /* GroupTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupTableViewCell.h; sourceTree = "<group>"; };
+		116327801C1B3C0E00F8FEAD /* GroupTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupTableViewCell.m; sourceTree = "<group>"; };
+		1163279A1C1B3CA300F8FEAD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1163279B1C1B3CA300F8FEAD /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1163279E1C1B3F1E00F8FEAD /* CLQApplicationBootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLQApplicationBootstrap.h; sourceTree = "<group>"; };
+		1163279F1C1B3F1E00F8FEAD /* CLQApplicationBootstrap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLQApplicationBootstrap.m; sourceTree = "<group>"; };
+		116327A11C1B435500F8FEAD /* CLQJoinRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLQJoinRequest.h; sourceTree = "<group>"; };
+		116327A21C1B435500F8FEAD /* CLQJoinRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLQJoinRequest.m; sourceTree = "<group>"; };
+		116327A41C1B43B000F8FEAD /* CLQGroupsRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLQGroupsRepository.h; sourceTree = "<group>"; };
+		116327A51C1B43B000F8FEAD /* CLQGroupsRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLQGroupsRepository.m; sourceTree = "<group>"; };
 		117E777E1C16F55B007E8D95 /* NetworkArchitectureDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkArchitectureDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		117E77821C16F55B007E8D95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		117E77841C16F55B007E8D95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		117E77851C16F55B007E8D95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		117E77871C16F55B007E8D95 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		117E77881C16F55B007E8D95 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		117E778A1C16F55B007E8D95 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		117E778B1C16F55B007E8D95 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		117E778E1C16F55B007E8D95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		117E77901C16F55B007E8D95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		117E77931C16F55B007E8D95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		117E77951C16F55B007E8D95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		117E779A1C16F55C007E8D95 /* NetworkArchitectureDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkArchitectureDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		117E779E1C16F55C007E8D95 /* NetworkArchitectureDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkArchitectureDemoTests.m; sourceTree = "<group>"; };
 		117E77A01C16F55C007E8D95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67E0C7EBA21AEBF3DEEE7B0F /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD2F9873532AC05CC7214493 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A59C904E2F43975B7E8931F /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,12 +126,167 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		116327491C1B3C0E00F8FEAD /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1163274A1C1B3C0E00F8FEAD /* CLQAppDelegate.h */,
+				1163274B1C1B3C0E00F8FEAD /* CLQAppDelegate.m */,
+				1163279E1C1B3F1E00F8FEAD /* CLQApplicationBootstrap.h */,
+				1163279F1C1B3F1E00F8FEAD /* CLQApplicationBootstrap.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		1163274C1C1B3C0E00F8FEAD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1163274D1C1B3C0E00F8FEAD /* CLQLoginViewController.h */,
+				1163274E1C1B3C0E00F8FEAD /* CLQLoginViewController.m */,
+				1163274F1C1B3C0E00F8FEAD /* CLQUserFriendsViewController.h */,
+				116327501C1B3C0E00F8FEAD /* CLQUserFriendsViewController.m */,
+				116327511C1B3C0E00F8FEAD /* CLQUserGroupsViewController.h */,
+				116327521C1B3C0E00F8FEAD /* CLQUserGroupsViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		116327531C1B3C0E00F8FEAD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				116327541C1B3C0E00F8FEAD /* CLQEntity.h */,
+				116327551C1B3C0E00F8FEAD /* CLQEntity.m */,
+				116327561C1B3C0E00F8FEAD /* CLQGroup.h */,
+				116327571C1B3C0E00F8FEAD /* CLQGroup.m */,
+				116327581C1B3C0E00F8FEAD /* CLQGroupInvitation.h */,
+				116327591C1B3C0E00F8FEAD /* CLQGroupInvitation.m */,
+				1163275A1C1B3C0E00F8FEAD /* CLQSearchCriteria.h */,
+				1163275B1C1B3C0E00F8FEAD /* CLQSearchCriteria.m */,
+				1163275C1C1B3C0E00F8FEAD /* CLQUser.h */,
+				1163275D1C1B3C0E00F8FEAD /* CLQUser.m */,
+				116327A11C1B435500F8FEAD /* CLQJoinRequest.h */,
+				116327A21C1B435500F8FEAD /* CLQJoinRequest.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1163275E1C1B3C0E00F8FEAD /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				1163275F1C1B3C0E00F8FEAD /* Assets */,
+				116327611C1B3C0E00F8FEAD /* Storyboards */,
+				116327641C1B3C0E00F8FEAD /* XIBs */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		1163275F1C1B3C0E00F8FEAD /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				116327601C1B3C0E00F8FEAD /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		116327611C1B3C0E00F8FEAD /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				116327621C1B3C0E00F8FEAD /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		116327641C1B3C0E00F8FEAD /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				116327651C1B3C0E00F8FEAD /* CLQLoginViewController.xib */,
+				116327661C1B3C0E00F8FEAD /* FriendTableViewCell.xib */,
+				116327671C1B3C0E00F8FEAD /* GroupTableViewCell.xib */,
+				116327681C1B3C0E00F8FEAD /* UserProfileView.xib */,
+			);
+			path = XIBs;
+			sourceTree = "<group>";
+		};
+		116327691C1B3C0E00F8FEAD /* ServiceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				1163276A1C1B3C0E00F8FEAD /* Network */,
+				1163276D1C1B3C0E00F8FEAD /* Repository */,
+				116327711C1B3C0E00F8FEAD /* Services */,
+			);
+			path = ServiceLayer;
+			sourceTree = "<group>";
+		};
+		1163276A1C1B3C0E00F8FEAD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1163276B1C1B3C0E00F8FEAD /* CLQAPIClient.h */,
+				1163276C1C1B3C0E00F8FEAD /* CLQAPIClient.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1163276D1C1B3C0E00F8FEAD /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				1163276E1C1B3C0E00F8FEAD /* CLQFriendsRepository.h */,
+				1163276F1C1B3C0E00F8FEAD /* CLQFriendsRepository.m */,
+				116327701C1B3C0E00F8FEAD /* CLQRepository.h */,
+				116327A41C1B43B000F8FEAD /* CLQGroupsRepository.h */,
+				116327A51C1B43B000F8FEAD /* CLQGroupsRepository.m */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		116327711C1B3C0E00F8FEAD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				116327721C1B3C0E00F8FEAD /* CLQAuthorizationServices.h */,
+				116327731C1B3C0E00F8FEAD /* CLQAuthorizationServices.m */,
+				116327741C1B3C0E00F8FEAD /* CLQFriendServices.h */,
+				116327751C1B3C0E00F8FEAD /* CLQFriendServices.m */,
+				116327761C1B3C0E00F8FEAD /* CLQGroupServices.h */,
+				116327771C1B3C0E00F8FEAD /* CLQGroupServices.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1163277B1C1B3C0E00F8FEAD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1163277C1C1B3C0E00F8FEAD /* CLQSquareTextField.h */,
+				1163277D1C1B3C0E00F8FEAD /* CLQSquareTextField.m */,
+				1163277E1C1B3C0E00F8FEAD /* TableCells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1163277E1C1B3C0E00F8FEAD /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				1163277F1C1B3C0E00F8FEAD /* GroupTableViewCell.h */,
+				116327801C1B3C0E00F8FEAD /* GroupTableViewCell.m */,
+			);
+			path = TableCells;
+			sourceTree = "<group>";
+		};
+		116327991C1B3CA300F8FEAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1163279A1C1B3CA300F8FEAD /* Info.plist */,
+				1163279B1C1B3CA300F8FEAD /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		117E77751C16F55B007E8D95 = {
 			isa = PBXGroup;
 			children = (
+				1101A53B1C1B18F000BD69B4 /* Podfile */,
 				117E77801C16F55B007E8D95 /* NetworkArchitectureDemo */,
 				117E779D1C16F55C007E8D95 /* NetworkArchitectureDemoTests */,
 				117E777F1C16F55B007E8D95 /* Products */,
+				84D0943534F891C1F26AF9B0 /* Pods */,
+				14FCA46407A592FBFF914C52 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,27 +302,15 @@
 		117E77801C16F55B007E8D95 /* NetworkArchitectureDemo */ = {
 			isa = PBXGroup;
 			children = (
-				117E77841C16F55B007E8D95 /* AppDelegate.h */,
-				117E77851C16F55B007E8D95 /* AppDelegate.m */,
-				117E77871C16F55B007E8D95 /* FirstViewController.h */,
-				117E77881C16F55B007E8D95 /* FirstViewController.m */,
-				117E778A1C16F55B007E8D95 /* SecondViewController.h */,
-				117E778B1C16F55B007E8D95 /* SecondViewController.m */,
-				117E778D1C16F55B007E8D95 /* Main.storyboard */,
-				117E77901C16F55B007E8D95 /* Assets.xcassets */,
-				117E77921C16F55B007E8D95 /* LaunchScreen.storyboard */,
-				117E77951C16F55B007E8D95 /* Info.plist */,
-				117E77811C16F55B007E8D95 /* Supporting Files */,
+				116327991C1B3CA300F8FEAD /* Supporting Files */,
+				116327491C1B3C0E00F8FEAD /* Application */,
+				1163274C1C1B3C0E00F8FEAD /* Controllers */,
+				116327531C1B3C0E00F8FEAD /* Models */,
+				1163275E1C1B3C0E00F8FEAD /* Resourses */,
+				116327691C1B3C0E00F8FEAD /* ServiceLayer */,
+				1163277B1C1B3C0E00F8FEAD /* Views */,
 			);
 			path = NetworkArchitectureDemo;
-			sourceTree = "<group>";
-		};
-		117E77811C16F55B007E8D95 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				117E77821C16F55B007E8D95 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		117E779D1C16F55C007E8D95 /* NetworkArchitectureDemoTests */ = {
@@ -116,6 +322,23 @@
 			path = NetworkArchitectureDemoTests;
 			sourceTree = "<group>";
 		};
+		14FCA46407A592FBFF914C52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67E0C7EBA21AEBF3DEEE7B0F /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84D0943534F891C1F26AF9B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD2F9873532AC05CC7214493 /* Pods.debug.xcconfig */,
+				1081914D2707855563934413 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -123,9 +346,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 117E77A31C16F55C007E8D95 /* Build configuration list for PBXNativeTarget "NetworkArchitectureDemo" */;
 			buildPhases = (
+				DCBCE173903D09BEE8D7E14F /* Check Pods Manifest.lock */,
 				117E777A1C16F55B007E8D95 /* Sources */,
 				117E777B1C16F55B007E8D95 /* Frameworks */,
 				117E777C1C16F55B007E8D95 /* Resources */,
+				851D52C9FF2C57FD0852E456 /* Embed Pods Frameworks */,
+				751377B1C15CE629EE2DD1A7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,9 +422,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				117E77941C16F55B007E8D95 /* LaunchScreen.storyboard in Resources */,
-				117E77911C16F55B007E8D95 /* Assets.xcassets in Resources */,
-				117E778F1C16F55B007E8D95 /* Main.storyboard in Resources */,
+				1163279C1C1B3CA300F8FEAD /* Info.plist in Resources */,
+				1163278F1C1B3C0E00F8FEAD /* UserProfileView.xib in Resources */,
+				1163278D1C1B3C0E00F8FEAD /* FriendTableViewCell.xib in Resources */,
+				1163278E1C1B3C0E00F8FEAD /* GroupTableViewCell.xib in Resources */,
+				1163278B1C1B3C0E00F8FEAD /* LaunchScreen.storyboard in Resources */,
+				1163278A1C1B3C0E00F8FEAD /* Assets.xcassets in Resources */,
+				1101A53C1C1B18F000BD69B4 /* Podfile in Resources */,
+				1163278C1C1B3C0E00F8FEAD /* CLQLoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,15 +442,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		751377B1C15CE629EE2DD1A7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		851D52C9FF2C57FD0852E456 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCBCE173903D09BEE8D7E14F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		117E777A1C16F55B007E8D95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				117E778C1C16F55B007E8D95 /* SecondViewController.m in Sources */,
-				117E77861C16F55B007E8D95 /* AppDelegate.m in Sources */,
-				117E77891C16F55B007E8D95 /* FirstViewController.m in Sources */,
-				117E77831C16F55B007E8D95 /* main.m in Sources */,
+				116327931C1B3C0E00F8FEAD /* CLQFriendServices.m in Sources */,
+				116327861C1B3C0E00F8FEAD /* CLQGroup.m in Sources */,
+				116327811C1B3C0E00F8FEAD /* CLQAppDelegate.m in Sources */,
+				116327A31C1B435500F8FEAD /* CLQJoinRequest.m in Sources */,
+				116327831C1B3C0E00F8FEAD /* CLQUserFriendsViewController.m in Sources */,
+				116327851C1B3C0E00F8FEAD /* CLQEntity.m in Sources */,
+				116327981C1B3C0E00F8FEAD /* GroupTableViewCell.m in Sources */,
+				116327911C1B3C0E00F8FEAD /* CLQFriendsRepository.m in Sources */,
+				116327871C1B3C0E00F8FEAD /* CLQGroupInvitation.m in Sources */,
+				116327A01C1B3F1E00F8FEAD /* CLQApplicationBootstrap.m in Sources */,
+				116327921C1B3C0E00F8FEAD /* CLQAuthorizationServices.m in Sources */,
+				116327891C1B3C0E00F8FEAD /* CLQUser.m in Sources */,
+				116327971C1B3C0E00F8FEAD /* CLQSquareTextField.m in Sources */,
+				116327901C1B3C0E00F8FEAD /* CLQAPIClient.m in Sources */,
+				1163279D1C1B3CA300F8FEAD /* main.m in Sources */,
+				116327941C1B3C0E00F8FEAD /* CLQGroupServices.m in Sources */,
+				116327A61C1B43B000F8FEAD /* CLQGroupsRepository.m in Sources */,
+				116327841C1B3C0E00F8FEAD /* CLQUserGroupsViewController.m in Sources */,
+				116327821C1B3C0E00F8FEAD /* CLQLoginViewController.m in Sources */,
+				116327881C1B3C0E00F8FEAD /* CLQSearchCriteria.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,18 +537,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		117E778D1C16F55B007E8D95 /* Main.storyboard */ = {
+		116327621C1B3C0E00F8FEAD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				117E778E1C16F55B007E8D95 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		117E77921C16F55B007E8D95 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				117E77931C16F55B007E8D95 /* Base */,
+				116327631C1B3C0E00F8FEAD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -343,9 +630,10 @@
 		};
 		117E77A41C16F55C007E8D95 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD2F9873532AC05CC7214493 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = NetworkArchitectureDemo/Info.plist;
+				INFOPLIST_FILE = "NetworkArchitectureDemo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = alex.NetworkArchitectureDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -354,9 +642,10 @@
 		};
 		117E77A51C16F55C007E8D95 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1081914D2707855563934413 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = NetworkArchitectureDemo/Info.plist;
+				INFOPLIST_FILE = "NetworkArchitectureDemo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = alex.NetworkArchitectureDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -406,6 +695,7 @@
 				117E77A51C16F55C007E8D95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		117E77A61C16F55C007E8D95 /* Build configuration list for PBXNativeTarget "NetworkArchitectureDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +704,7 @@
 				117E77A81C16F55C007E8D95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
