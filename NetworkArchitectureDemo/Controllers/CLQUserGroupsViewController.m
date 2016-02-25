@@ -86,5 +86,18 @@ static NSString * const kGroupCellIdentifier = @"UserGroupTableViewCell";
     return  cell;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+
+    //Example of builder pattern for group creation
+    CLQGroup * const group = [CLQGroup groupWithBlock:^(CLQGroupBuilder *builder) {
+        
+        builder.maxMembers = @(20);
+        builder.minVotesNeeded = @(11);
+        builder.title = @"First Group";
+        builder.status = @"We are the best group!";
+        builder.address = @"St. James Avenue 10/201";
+        
+    }];
+}
 
 @end
